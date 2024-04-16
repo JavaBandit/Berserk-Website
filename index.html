@@ -1,0 +1,96 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylehome.css">
+    <title>Band of the Hawk</title>
+</head>
+
+<body>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="Images/Background2.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <audio id="player" muted loop autoplay="autoplay" controls>
+        <source src="Berserk Ringtone.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="content">
+        <h1>Band of The Hawk</h1>
+        <img src="Images/Logo.png" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Info</a></li>
+                <li><a href="">Apply</a></li>
+
+            </ul>
+        </nav>
+
+    </div>
+
+    <!--<div class="headlines">*-->
+
+    <a href="about.html">
+        <div class="card">
+
+            <h3> About</h3>
+        </div>
+    </a>
+
+
+    <a href="Progress.html">
+        <div class="card2">
+            <h2>Progress</h2>
+        </div>
+    </a>
+
+
+
+    <a href="Anime Waifus.html">
+        <div class="card3">
+            <h3>Anime Waifus</h3>
+        </div>
+    </a>
+
+    <a href="Boss Tactics.html">
+        <div class="card4">
+            <h3>Boss Tactics</h3>
+
+
+        </div>
+    </a>
+
+    <a href="Eclipse.html">
+        <div class="card5">
+
+        </div>
+    </a>
+
+    <!--</div>-->
+</body>
+
+<script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+
+    video.mute
+
+    function myFunction() {
+        if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause";
+        } else {
+            video.pause();
+            btn.innerHTML = "Play";
+        }
+    }
+</script>
+</body>
+
+</html>

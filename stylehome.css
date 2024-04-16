@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+#player {
+  position: fixed;
+  color: rgb(64, 48, 121);
+  margin-top: 900px;
+  opacity: 60%;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+  margin-top: -70px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 150%;
+}
+
+.logo {
+  width: 50px;
+  margin-left: 20px;
+  cursor: pointer;
+  margin-top: -105px;
+}
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+.content {
+  position: fixed;
+  top: 0;
+
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(238, 39, 0, 0.7539390756302521) 35%,
+    rgba(186, 167, 167, 0.5214460784313726) 100%
+  );
+  color: #000000;
+  width: 100%;
+  padding: 10px;
+  height: 170px;
+}
+
+h1 {
+  position: center;
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 60px;
+  color: red;
+  -webkit-text-stroke-width: 0.9px;
+  -webkit-text-stroke-color: black;
+}
+
+h3 {
+  font-size: 40px;
+  color: red;
+  -webkit-text-stroke-width: 0.9px;
+  -webkit-text-stroke-color: black;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  margin-top: 250px;
+  margin-left: 50px;
+  border-radius: 250px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+
+  background-image: url(Images/bandofhawk.png);
+  background-position: fill;
+  background-size: cover;
+  transition: transform 0.5s;
+  position: fixed;
+
+  pointer-events: auto;
+}
+
+.card2 {
+  width: 400px;
+  height: 400px;
+  margin-top: 250px;
+  margin-left: 1480px;
+  border-radius: 250px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+
+  background-image: url(Images/darkness.jpg);
+  background-position: fill;
+  background-size: cover;
+  transition: transform 0.5s;
+  position: fixed;
+
+  pointer-events: auto;
+}
+
+.card3 {
+  padding: 15px 25px;
+  width: 300px;
+  height: 300px;
+  border-radius: 250px;
+  margin-top: 600px;
+  margin-left: 1100px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+
+  background-image: url(Images/waifus.jpg);
+  background-position: fill;
+  background-size: cover;
+  transition: transform 0.5s;
+  position: fixed;
+
+  pointer-events: auto;
+}
+
+.card4 {
+  width: 300px;
+  height: 300px;
+  border-radius: 250px;
+  margin-top: 600px;
+  margin-left: 515px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+
+  background-image: url(Images/fractal.jpg);
+  background-position: fill;
+
+  transition: transform 0.5s;
+  position: fixed;
+
+  pointer-events: auto;
+}
+
+.card5 {
+  width: 100px;
+  height: 100px;
+  border-radius: 250px;
+  margin-top: 110px;
+  margin-left: 905px;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  background-image: url(Images/eclipse2.jpg);
+  background-position: fill;
+  background-size: cover;
+  transition: transform 0.5s;
+  opacity: 1%;
+
+  position: relative;
+  position: fixed;
+
+  pointer-events: auto;
+}
+.headlines {
+  position: fixed;
+  display: flex;
+  height: 88%;
+  pointer-events: auto;
+}
+
+.card:hover {
+  transform: scale(120%);
+}
+
+.card2:hover {
+  transform: scale(120%);
+}
+
+.card3:hover {
+  transform: scale(150%);
+}
+
+.card4:hover {
+  transform: scale(150%);
+}
+
+.card5:hover {
+  transform: scale(210%);
+  border-radius: 55px;
+  opacity: 73%;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

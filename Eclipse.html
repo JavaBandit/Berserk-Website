@@ -1,0 +1,55 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=E, initial-scale=1.0">
+    <link rel="stylesheet" href="eclipsestyle.css">
+    <title>Eclipse</title>
+</head>
+
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="Images/Berzerk.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+
+    <audio id="player" muted autoplay controls loop>
+        <source src="Slan.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        var video = document.getElementById("myVideo");
+
+        function myFunction() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+        }
+
+        var audio = document.getElementById("player")
+        audio.play()
+
+        var sound = new Audio("Slan.mp3");
+        sound.play()
+
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
